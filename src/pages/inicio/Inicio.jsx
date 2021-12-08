@@ -29,7 +29,7 @@ const Inicio = () => {
     <div>
         <h1>{tittle}</h1>        
         <TodoList tarea={tareas} toogleTask={toggleTask} />
-        <button  >Prueba</button>  
+        <button onClick={toggleTask} >Prueba</button>  
     </div>);
 }
  
